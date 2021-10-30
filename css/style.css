@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: auto;
+}
+.nav{
+    position:sticky;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: auto;
+    background-color: whitesmoke;
+    border-bottom: 1px solid rgb(184, 184, 184);
+}
+.nav a{
+    width: 300px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+    position: relative;
+    top: -15px;
+}
+.nav a:hover{
+    color: black;
+}
+.container{
+    height: auto;
+    width: 100%;
+    font-family: calibri;
+}
+.top{
+    height: auto;
+    width: 100%;
+    background-image: url(../images/landing.png);
+    background-size: cover;
+    background-position: center;
+    background-position-y: -40px;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.top3{
+    height: auto;
+    width: 100%;
+    background-image: url(../images/about.png);
+    background-size: cover;
+    background-position: center;
+    background-position-y: -370px;
+    overflow: hidden;
+}
+.top4{
+    height: auto;
+    width: 100%;
+    background-image: url(../images/giving.jpg);
+    background-size: cover;
+    background-position: center;
+    background-position-y: -270px;
+    overflow: hidden;
+}
+.top2{
+    height: auto;
+    width: 100%;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-position-y: -170px;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+#myvideo{
+    position: relative;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 99%;
+}
+.mid1{
+    height: 200px;
+    width: 100%;
+    background-color: white;
+}
+.mid1 p{
+    padding: 50px;
+    font-size: 40px;
+    text-align: center;
+    width: 30%;
+}
+.mid2{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    align-items: center;
+}
+.mid2 img{ 
+    height: 450px;
+    padding: 25px;
+}
+.mid3{
+    height: auto;
+    width: 70%;
+    background-color: white;
+    align-items: center;
+    padding: 60px;
+}
+.mid3 h1{
+    padding: 30px 0px 30px 0px;
+}
+.mid3 p{
+    text-align: justify;
+    width: 90%;
+    font-size: 17px;
+    padding-bottom: 40px;
+}
+.mid3 input{
+    padding: 15px 25px 15px 25px;
+    border: 3px solid gray;
+    border-radius: 4px;
+    color:gray;
+    background-color: white;
+}
+.mid3 input[type=button]:hover, .mid1 input[type=button]:hover{
+    opacity: 0.6;
+}
+.footer{
+    height: 50px;
+    background-color: gray;
+    padding-top: 23px;
+    font-size: 18px;
+    color: white;
+}
